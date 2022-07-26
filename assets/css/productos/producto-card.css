@@ -1,0 +1,61 @@
+.productos__card{
+    display: grid;
+    grid-template-areas: 
+        "imagen"
+        "nombre"
+        "volumen"
+        "precio"
+        "link";
+    width: 18%;
+    padding: 0.6rem;
+    border-top: 4px solid var(--madder);
+    border-bottom: 4px solid var(--madder-dark);
+    border-left: 4px solid var(--madder-dark);
+    border-right: 4px solid var(--madder);
+    border-radius: 1rem;
+}
+
+.producto__img{
+    grid-area: imagen;
+    width: 60%;
+    padding-left: 20%;
+}
+
+.producto__nombre{
+    grid-area: nombre;
+    padding-top: 0.5rem;
+    font-family: var(--marcador);
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+.producto__volumen{
+    grid-area: volumen;
+    background-color: #3333;
+    text-align: center;
+    font-weight: light;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.producto__precio{
+    grid-area: precio;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.producto__link{
+    transition: 0.5s;
+    margin-top: 0;
+    grid-area: link;
+    text-align: center;
+    text-decoration: none;
+    color: var(--madder);
+    font-size: 1rem;
+}
+
+.producto__link:hover{
+    transition: 0.5s;
+    font-size: 1.2rem;
+}

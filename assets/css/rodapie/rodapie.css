@@ -1,0 +1,46 @@
+.rodapie{
+    background: linear-gradient(180deg, rgba(204,41,54,1) 0%, rgba(58,12,16,1) 100%);
+    padding: 1rem;
+}
+.rodapie__img-container{
+    width:20%;
+}
+.rodapie__img{
+    width: 50%;
+    height: 8rem;
+    padding-left: 2.2rem;
+}
+.rodapie__titulo{
+    color: var(--lavender);
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: var(--marcador);
+    font-size: 1.7rem;
+}
+.rodapie__nav{
+    display: flex;
+    justify-content: space-around;
+}
+.rodapie__lista{
+    list-style: none;
+}
+.rodapie__items{
+    transition: 1s;
+    color: var(--lavender);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+.rodapie__items:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--indigo);
+    text-shadow: 2px 0 0 var(--lavender) -2px 0 0 var(--lavender), 0 2px 0 var(--lavender) 0 -2px 0 var(--lavender), 1px 1px var(--lavender), -1px -1px 0 var(--lavender), 1px -1px 0 var(--lavender), -1px 1px 0 var(--lavender);
+
+}
+.rodapie__firma{
+    border-top: 1px solid var(--lavender);
+    padding-top: 1rem;
+    color: var(--lavender);
+    text-align: center;
+    margin-bottom: 0;
+}

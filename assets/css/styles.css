@@ -1,0 +1,17 @@
+:root{
+    /*-----------COLORES----------------*/
+    --indigo:#08415C;
+    --madder:#cc2936;
+    --madder-dark:#3a0c10;
+    --gray:#6B818C;
+    --peach:#F1BF98;
+    --lavender:#EEE5E9;
+    /*-----------FUENTES----------------*/
+    --marcador: 'Permanent Marker', cursive;
+    --work: 'Work Sans', sans-serif;
+}
+
+.principal{
+    background-color:var(--lavender);
+    font-family: var(--work);
+}
