@@ -1,0 +1,70 @@
+/*Dispositivos moviles*/
+@media screen and (min-width: 0) {
+    .banner__titulos {
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner__nav {
+        height: auto;
+    }
+
+    .banner__menu {
+        flex-direction: column;
+        text-align: center;
+        text-decoration: underline;
+        line-height: 2.5rem;
+    }
+    
+    .banner__link {
+        font-size: 1.2rem;
+    }
+
+    .item__directorio {
+        border: none;
+        font-style: bold;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:380px) {
+    .banner__titulos {
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+/*Computadoras o netbooks*/
+@media screen and (min-width:768px) {
+    .banner__titulos {
+        text-align: left;
+        font-size: 1.7rem;
+        margin-left: 2rem;
+        padding: 2.8rem;
+    }
+
+    .item__directorio {
+        border: 1px solid var(--madder-dark);
+        border-radius: 1rem;
+    }
+
+    .banner__nav {
+        height: 5rem;
+    }
+
+    .banner__menu {
+        flex-direction: row;
+        text-align: center;
+        text-decoration: none;
+        line-height: 2rem;
+    }
+
+    .banner__link {
+        font-size: 1.25rem;
+    }
+
+    .item__directorio {
+        border: none;
+        font-style: bold;
+    }
+}

@@ -1,0 +1,55 @@
+/*Dispositivos moviles*/
+@media screen and (min-width: 0) {
+    .cabecera {
+        flex-wrap: wrap;
+    }
+
+    .cabecera__img {
+        display: none;
+    }
+
+    .cabecera__buscador {
+        width: 10rem;
+        margin-right: 1.5rem;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:380px) {
+    .cabecera {
+        flex-direction: column;
+    }
+
+    .cabecera__img {
+        display: none;
+    }
+
+    .cabecera__menu {
+        width: auto;
+    }
+
+    .cabecera__buscador {
+        margin-right: 1rem;
+        width: 10rem;
+    }
+}
+
+/*Computadoras o netbooks*/
+@media screen and (min-width:768px) {
+    .cabecera{
+        flex-direction: row;
+    }
+    .cabecera__menu {
+        width: 60%;
+    }
+
+    .cabecera__img {
+        display:block;
+        width: 8%;
+    }
+
+    .cabecera__buscador {
+        margin: 0;
+        width: 25rem;
+    }
+}

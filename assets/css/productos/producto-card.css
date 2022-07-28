@@ -6,8 +6,6 @@
         "volumen"
         "precio"
         "link";
-    width: 18%;
-    padding: 0.6rem;
     border-top: 4px solid var(--madder);
     border-bottom: 4px solid var(--madder-dark);
     border-left: 4px solid var(--madder-dark);
@@ -25,7 +23,6 @@
     grid-area: nombre;
     padding-top: 0.5rem;
     font-family: var(--marcador);
-    font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
 }

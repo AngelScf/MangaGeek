@@ -1,3 +1,6 @@
+.contacto__img{
+    background: url(../../img/anime-contacto.png);
+}
 .contacto__form{
     display: flex;
     flex-direction: column;   

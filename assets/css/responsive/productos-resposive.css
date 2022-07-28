@@ -1,0 +1,48 @@
+/*Dispositivos moviles*/
+@media screen and (min-width: 0) {
+    .productos__lista {
+        flex-direction: column;
+    }
+
+    .productos__titulo {
+        font-size: 1.7rem;
+    }
+
+    .productos__card {
+        align-self: center;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:380px) {
+    .productos__lista {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .productos__card {
+        align-self: center;
+        width: 14.3rem;
+        height: 25.3rem;
+    }
+
+    .producto__nombre {
+        font-size: 1.3rem;
+    }
+}
+
+/*Computadoras o netbooks*/
+@media screen and (min-width:768px) {
+    .productos__card {
+        margin: 0;
+        width: 18%;
+        height: 28rem;
+        padding: 0.6rem;
+    }
+
+    .producto__nombre {
+        font-size: 1.6rem;
+    }
+}
