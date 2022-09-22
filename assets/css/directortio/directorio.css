@@ -1,0 +1,17 @@
+.productos__general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lista__titulos{
+    list-style:square;
+}
+.titulo__link{
+    color: var(--indigo);
+    font-family: var(--work);
+    font-size: 1.5rem;
+    text-decoration: none;    
+}
+.titulo__link:hover{
+    color: var(--madder);
+}

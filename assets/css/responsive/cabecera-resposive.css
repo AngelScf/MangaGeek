@@ -12,6 +12,9 @@
         width: 10rem;
         margin-right: 1.5rem;
     }
+    .cabecera__boton{
+        width: 6.5rem;
+    }
 }
 
 /*Tablet*/
@@ -32,6 +35,9 @@
         margin-right: 1rem;
         width: 10rem;
     }
+    .cabecera__boton{
+        width: 6.5rem;
+    }
 }
 
 /*Computadoras o netbooks*/
@@ -51,5 +57,8 @@
     .cabecera__buscador {
         margin: 0;
         width: 25rem;
+    }
+    .cabecera__boton{
+        width: 10rem;
     }
 }

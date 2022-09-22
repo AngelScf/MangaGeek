@@ -36,7 +36,7 @@
                 <input type="text" class="cabecera__buscador" placeholder="¿Que deseas buscar?">
             </li>
             <li class="cabecera__item">
-                <button class="cabecera__boton">Iniciar sesión</button>
+                <button class="cabecera__boton" onclick="iniciarSesion()">Iniciar sesión</button>
             </li>
         </ul>
     </header>
@@ -52,20 +52,20 @@
         </section>
         <section class="banner__nav">
             <ul class="banner__menu">
-                <li class="banner__items item__directorio"><a href="#" class="banner__link">Directorio</a></li>
+                <li class="banner__items item__directorio"><a href="./assets/pages/directorio.html" class="banner__link">Directorio</a></li>
                 <li class="banner__items"><a href="#" class="banner__link">Nuestras tiendas</a></li>
                 <li class="banner__items"><a href="#" class="banner__link">¡Visita nuestro blog de noticias!</a></li>
                 <li class="banner__items"><a href="#" class="banner__link">Quiero traducir para MangaGeek</a></li>
             </ul>
         </section>
 
-        <!----------------------------CABECERA----------------------------------------------------->
+        <!----------------------------productos----------------------------------------------------->
         <section class="productos">
 
             <div class="productos__row">
                 <div class="productos__seccion">
                     <h2 class="productos__titulo">Destacados</h2>
-                    <a href="" class="productos__verTodo"> Ver todos <span class="verTodo_icon">&#10144;</span></a>
+                    <a href="./assets/pages/directorio.html" class="productos__verTodo"> Ver todos <span class="verTodo_icon">&#10144;</span></a>
                 </div>
                 <div class="productos__lista">
                     <div class="productos__card">
@@ -107,7 +107,7 @@
 
                 <div class="productos__seccion">
                     <h2 class="productos__titulo">Shonen</h2>
-                    <a href="" class="productos__verTodo"> Ver todos <span class="verTodo_icon">&#10144;</span></a>
+                    <a href="./assets/pages/directorio.html" class="productos__verTodo"> Ver todos <span class="verTodo_icon">&#10144;</span></a>
                 </div>
                 <div class="productos__lista">
                     <div class="productos__card">
@@ -151,7 +151,7 @@
 
                 <div class="productos__seccion">
                     <h2 class="productos__titulo">Shoujou</h2>
-                    <a href="" class="productos__verTodo"> Ver todos <span class="verTodo_icon">&#10144;</span></a>
+                    <a href="./assets/pages/directorio.html" class="productos__verTodo"> Ver todos <span class="verTodo_icon">&#10144;</span></a>
                 </div>
 
                 <div class="productos__lista">
@@ -188,43 +188,42 @@
                         <a href="#" class="producto__link">Ver producto </a>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
     </main>
-</body>
-<footer class="rodapie">
-    <div class="rodapie__nav">
-        <div class="rodapie__menu-container">
-            <div class="rodapie__img-container">
-                <img src="./assets/img/cabecera-logo.png" alt="Logo MangaGeek" class="rodapie__img">
-                <h3 class="rodapie__titulo">Manga Geek!</h3>
+    <footer class="rodapie">
+        <div class="rodapie__nav">
+            <div class="rodapie__menu-container">
+                <div class="rodapie__img-container">
+                    <img src="./assets/img/cabecera-logo.png" alt="Logo MangaGeek" class="rodapie__img">
+                    <h3 class="rodapie__titulo">Manga Geek!</h3>
+                </div>
+    
+                <ul class="rodapie__lista">
+                    <li class="rodapie__items">Quienes somos</li>
+                    <li class="rodapie__items">Política de privacidad</li>
+                    <li class="rodapie__items">Programas de fidelidad</li>
+                    <li class="rodapie__items">Nuestras tiendas</li>
+                    <li class="rodapie__items">Quiero ser franquiciado</li>
+                    <li class="rodapie__items">Anuncie aqui</li>
+                </ul>
             </div>
+            <div class="contacto">
+                <form action="#" class="contacto__form">
+                    <h4 class="contacto__titulo">¿Deseas contactarnos?</h4>
+                    <input type="text" required placeholder="Tu nombre" class="contacto__input">
+                    <input type="email" required placeholder="Example010@email.com" class="contacto__input">
+                    <input type="text" required placeholder="Asunto" class="contacto__input">
+                    <textarea name="mensaje" id="textMensaje" cols="30" rows="10" class="contacto__mensaje" required
+                        placeholder="Escriba su mensaje aqui"></textarea>
+                    <button class="contacto__button"> Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <p class="rodapie__firma">Desarrollado por Paula Villegas <br> 2022</p>
+    </footer>
+</body>
 
-            <ul class="rodapie__lista">
-                <li class="rodapie__items">Quienes somos</li>
-                <li class="rodapie__items">Política de privacidad</li>
-                <li class="rodapie__items">Programas de fidelidad</li>
-                <li class="rodapie__items">Nuestras tiendas</li>
-                <li class="rodapie__items">Quiero ser franquiciado</li>
-                <li class="rodapie__items">Anuncie aqui</li>
-            </ul>
-        </div>
-        <div class="contacto">
-            <form action="#" class="contacto__form">
-                <h4 class="contacto__titulo">¿Deseas contactarnos?</h4>
-                <input type="text" required placeholder="Tu nombre" class="contacto__input">
-                <input type="email" required placeholder="Example010@email.com" class="contacto__input">
-                <input type="text" required placeholder="Asunto" class="contacto__input">
-                <textarea name="mensaje" id="textMensaje" cols="30" rows="10" class="contacto__mensaje" required
-                    placeholder="Escriba su mensaje aqui"></textarea>
-                <button class="contacto__button"> Enviar mensaje</button>
-            </form>
-        </div>
-    </div>
-    <p class="rodapie__firma">Desarrollado por Paula Villegas <br> 2022</p>
-</footer>
+<script src="./assets/js/redireccionar.js"></script>
 
 </html>

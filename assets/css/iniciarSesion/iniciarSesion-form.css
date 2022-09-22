@@ -1,0 +1,68 @@
+.iniciarSesion{
+    background-color: var(--peach);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.session__form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.session__label, .session__input{
+    font-family: var(--work);
+    font-size: 1.2rem;
+}
+
+.session__label{
+    color: var(--madder);
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.session__input{
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom: 5px solid #3333;
+    outline: none;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.iniciarSesion__button{
+    align-self: center;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--madder);
+    color: var(--lavender);
+    padding: 0.5rem;
+    transition: 0.5s;
+    width: 40%;
+}
+
+.iniciarSesion__button:hover{
+    transition: 0.5s;
+    background-color: var(--madder-dark);
+}
+
+@media screen and (min-width:0) {
+    .iniciarSesion{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:380px) {
+    .iniciarSesion{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:768px) {
+    .iniciarSesion{
+        flex-direction: row;
+    }
+}
