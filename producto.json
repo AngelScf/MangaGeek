@@ -1,0 +1,18 @@
+{
+  "producto": [
+    {
+      "img": "inuyasha",
+      "nombre": "Inuyasha",
+      "volumen": "1",
+      "precio": "8000",
+      "id": "56a4fba2-469f-4178-9928-3c0c254a4d10"
+    },
+    {
+      "img": "img",
+      "nombre": "Hajime no Ippo",
+      "volumen": "5",
+      "precio": "2000",
+      "id": "e3728c22-4a4b-4f9f-abcb-3b767a414e31"
+    }
+  ]
+}

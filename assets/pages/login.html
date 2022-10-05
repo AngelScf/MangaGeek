@@ -39,11 +39,11 @@
 </header>
 <main class="principal">
     <div class="iniciarSesion">
-        <form action="#" class="session__form">
+        <form action="#" class="session__form" data-form>
             <label for="email-usuario" class="session__label" >Email</label>
-            <input type="email" name="email-usuario" required class="session__input" placeholder="Example010@gmail.com">
+            <input type="email" name="email-usuario" required class="session__input" placeholder="Example010@gmail.com" data-form-email>
             <label for="contraseña" class="session__label">Contraseña</label>
-            <input type="password" name="contraseña" required class="session__input" placeholder="Tu contraseña">
+            <input type="password" name="contraseña" required class="session__input" placeholder="Tu contraseña" data-form-password>
             <button class="iniciarSesion__button">Iniciar sesion</button>
         </form>
             <p class="session__registrar-link"> ¿No tienes una cuenta?<br><br><a href="#" class="registrar__link">Registrate aqui</a> </p>
@@ -81,5 +81,5 @@
     <p class="rodapie__firma">Desarrollado por Paula Villegas <br> 2022</p>
 </footer>
 </body>
-
+<script src="../js/loginPrueba.js" type="module"></script>
 </html>

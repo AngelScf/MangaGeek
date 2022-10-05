@@ -1,0 +1,27 @@
+.botones{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.boton{
+    transition: 0.5s;
+    background-color: var(--madder);
+    border: 1px solid var(--peach);
+    border-radius: 5rem;
+    padding: 0.7rem;
+}
+
+.boton:hover{
+    transition: 0.5s;
+    background-color: var(--indigo);
+    color: var(--peach);
+}
+
+.botones-none{
+    display: none;
+}
+
+.boton__eliminar{
+    padding: 0.2rem;
+}

@@ -15,3 +15,8 @@
 .titulo__link:hover{
     color: var(--madder);
 }
+
+.imagen__repuesto{
+    width: 5rem;
+    height: 6rem;
+}
